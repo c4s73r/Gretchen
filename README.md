@@ -26,7 +26,8 @@ This script waits for a few inputs on startup:
 
 ## Caution
 
-For this traffic filtering you need a full understanding of how your network works, with incorrect ACL configurations you can block legitimate traffic. Study the TCL script carefully before running it. You must know what you are doing.
+For this traffic filtering you need a full understanding of how your network works, with incorrect ACL configurations you can block legitimate traffic. Study the TCL script carefully before running it. You must know what you are doing. 
+Also be careful with MDNS traffic, it can block printers (it is recommended to separate them into a separate VLAN), MacOS functions, Chromecast. Again, study how this tool works and keep an eye out.
 
 At the moment there are no problems in the daily operation of Active Directory, but you can always let me know if there are any problems.
 
