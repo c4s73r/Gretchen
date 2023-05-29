@@ -1,5 +1,4 @@
 # Gretchen
-Cisco TCL tool to stop Responder attacks by Caster
  
 ![](cover.png)
 
