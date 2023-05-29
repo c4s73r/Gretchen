@@ -1,7 +1,7 @@
 puts "
 #######################################################################
 #                             GRETCHEN                                #
-#          A tool to stop the responder attacks by Caster             #
+#          A tool to stop the Responder attacks by Caster             #
 ####################################################################### "
 
 puts "Author: Caster, @c4s73r, <c4s73r@protonmail.com>"
