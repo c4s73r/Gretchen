@@ -35,7 +35,7 @@ proc gretchen {} {
     ios_config "vlan access-map BLOCK-RESPONDER-VMAP 20" "action forward"
 
     puts "Setting VACL VLAN filter (VLAN: $vlan_id)"
-    ios_config "vlan filter VMAP vlan-list $vlan_id"
+    ios_config "vlan filter BLOCK-RESPONDER-VMAP vlan-list $vlan_id"
 
     puts " "
     puts "Now check the configuration with show run and make sure everything is OK"
